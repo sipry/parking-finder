@@ -1,0 +1,42 @@
+name: flutter_parking_finder_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  geolocator: ^5.1.4+2
+  flutter_spinkit: ^4.0.0
+  image_picker: ^0.6.1+10
+  maps_launcher: ^1.0.0
+  shared_preferences: ^0.5.4+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/josh-calabrese-XXpbdU_31Sg-unsplash.jpg
+    - images/mona-eendra-vC8wj_Kphak-unsplash.jpg
+
+
+  fonts:
+    - family: ZCOOL XiaoWei
+      fonts:
+        - asset: assets/fonts/ZCOOLXiaoWei-Regular.ttf
+          weight: 400
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
